@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body lang="es">
+        <div class="flex">
+            <div class="anchor-nav">
+                <a href="index.html">en</a>
+                <a href="spanish.html">es</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="main">
+                <h1>Contador General</h1>
+                <h2 id="count-el">0</h2>
+                <button id="increment-btn" onclick="increment()">AUMENTAR</button>
+                <button id="decrement-btn" onclick="decrement()">DISMINUIR</button>
+                <button id="save-btn" onclick="fullTotal();save();">SALVAR</button>
+                <p id="save-el">Entradas previas: </p>
+                <p class="total">Total presente: </p>
+                <div class="total" id= "sum-el"></div>
+                <script src="index.js"></script>
+            </div>
+        </div>
+    </body>
+</html>
